@@ -1,0 +1,17 @@
+#box{
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    position: relative;
+}
+
+#circle{
+    background-color: red;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    position: absolute;
+    left:50px;
+    top:25px;
+   
+}

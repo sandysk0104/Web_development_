@@ -1,0 +1,45 @@
+.first{
+    background-color: yellow;
+    height: 200px;
+    width:300px;
+    position: relative;
+}
+
+.second,.third{
+    background-color: rgb(24, 24, 199);
+    height:85px;
+    width:85px;
+    position:absolute;
+
+}
+
+.forth,.fifth{
+    background-color: rgb(24, 24, 199);
+    height: 85px;
+    width:175px;
+    position: absolute;
+
+}
+
+.second{
+    position: absolute;
+    top:0px;
+    left:0px;
+
+}
+.third{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+.forth{
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.fifth{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+
+}
