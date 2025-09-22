@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0a0a0a;
+  height:100vh;
+  position:relative;
+}
+
+.sun{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background:orange;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  box-shadow:0 0 30px orange;
+}
+
+.planet{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius:50%;
+  animation: orbit linear infinite;
+}
+
+/* planets different sizes, colors, radius, speed */
+.p1{
+  width:20px;
+  height:20px;
+  background:red;
+  animation-duration:4s;
+  --radius:120px;
+
+}
+.p2{
+  width:25px;
+  height:25px;
+  background:blue;
+  animation-duration:6s;
+  --radius:170px; /*--radius is a variable new way in CSS unlike */
+}
+.p3{
+  width:28px;
+  height:28px;
+  background:green;
+  animation-duration:8s;
+  --radius:220px;
+}
+.p4{
+  width:32px;
+  height:32px;
+  background:purple;
+  animation-duration:10s;
+  --radius:270px;
+}
+.p5{
+  width:36px;
+  height:36px;
+  background:yellow;
+  animation-duration:12s;
+  --radius:320px;
+}
+.p6{
+  width:40px;
+  height:40px;
+  background:pink;
+  animation-duration:14s;
+  --radius:370px;
+}
+.p7{
+  width:45px;
+  height:45px;
+  background:cyan;
+  animation-duration:16s;
+  --radius:420px;
+}
+
+@keyframes orbit{
+  from{
+    transform: rotate(0deg) translateX(var(--radius));
+  }
+
+  to{
+    transform: rotate(360deg) translateX(var(--radius));
+  }
+}
+
+/* Note */
+/* for rotation from center you have to use transform :rotate() translateX() */
+/* In CSS variable can used in "--var_name" e.g. above --radius  */

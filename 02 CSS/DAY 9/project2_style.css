@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0a0a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgba(186, 19, 19, 0.324);
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.line{
+    background-color: aliceblue;
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    animation-name: moving;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes moving {
+   
+    
+}

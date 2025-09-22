@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 800px;
+}
+
+.box{
+    background-color: orange;
+    height: 100px;
+    width:100px;
+   
+    cursor: pointer;
+    /* transition: all;
+    transition-duration: 3s;
+    
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    */
+
+    /* shorthand */
+    /* transition: all 3s linear 2s; */
+    transition: all 3s;
+
+    /* transform: rotate(45deg);   directly rotate to 45 degree */
+
+}
+
+.box:hover{
+    /* background-color: purple; */
+    /* height: 150px;
+    width: 150px; */
+
+    /* transform: translate(100px,100px); in x-directions and y-directions and also used for rigidity */
+    /* transform: scale(2);  two times its length means height and width */
+    /* transform: rotate(45deg); */
+
+    /* transform: skew(50deg); */
+    /* transform: translateX(200px); */
+
+
+    /* all these below wrt to perspective in the parent tag which is "container" value is 800px 
+    means setting the perpective of 800px from the screen to user eye */
+    /* transform: translateZ(200px); */
+    /* transform: rotateX(360deg); */
+    /* transform: rotateY(270deg); */
+    /* transform: rotateZ(270deg); */
+
+
+
+
+    
+    
+}

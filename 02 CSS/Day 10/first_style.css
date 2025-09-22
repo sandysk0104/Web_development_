@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #0a0a0a;
+    height: 100vh;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #0a0a0a;
+    /* top: 50%;
+    left: 50%; */
+    height: 300px;
+    width: 300px;
+
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    /* "translate(-50%,-50%)" means 50% of width backward and 50% of height backward shift thats why 
+    we able to make it to center */
+     /* one other way to make object in center */
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+
+
+    animation: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+
+
+}
+
+@keyframes moving {
+    /* from{
+
+        transform: rotate(0deg) translateX(200px) rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg) translateX(200px) rotate(-360deg);
+    } */
+
+    from{
+
+        transform: rotate(0deg) ;
+    }
+    to{
+        transform:rotate(360deg) ;
+    } 
+
+
+}
+
+/* better of rotationg the object from center */
+.sun{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(110px);
+}
