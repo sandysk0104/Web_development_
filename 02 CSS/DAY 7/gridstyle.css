@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+/* "*" is for universal i.e. from small to big entity valid to all */
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: rgb(24, 172, 122);
+    width: 400px;
+    height: 400px;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    /* 1fr means 1 fraction i.e. dynamically calculating the size  */
+    grid-template-columns: 1fr 1fr;
+   
+    
+    
+}
+.box{
+    padding: 10px;
+}
+.first{
+    background-color: rgb(72, 13, 23);
+    
+}
+.second{
+    background-color: blueviolet;
+
+}
+.third{
+    background-color:green;
+}
+.forth{
+    background-color:burlywood;
+}

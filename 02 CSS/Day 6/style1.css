@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: rgb(204, 217, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.box{
+    background-color:white;
+    height: 300px;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(17, 130, 17);
+    /* background-color: aquamarine; */
+    margin: 20px;
+}
+
+label{
+    /* background-color: red; */
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+input{
+    padding:2px;
+    border-radius:5px;
+    margin-bottom:10px;
+}
+
+button{
+    /* font-weight: 800px; */
+    cursor: pointer;
+}
+

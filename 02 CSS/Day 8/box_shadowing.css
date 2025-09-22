@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color:purple;
+    height: 300px;
+    width: 300px;
+    /* box-shadow: -10px 0px 0px 10px orange; */
+    /* box-shadow x-offset y-offset(downward) blur-radius spread-radius */
+    box-shadow: inset 10px 10px 10px 10px  orange;
+}
+ 

@@ -1,0 +1,64 @@
+/* .container{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    font-size:50px;
+}
+
+
+@media screen and (max-width:700px){
+    .container{
+
+        background-color: orange;
+        height: 300px;
+        width: 300px;
+        font-size:30px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        background-color: pink;
+       font-size:30px;
+    }
+     
+} */
+
+/*  The above approch is desktop based approach*/
+
+/* Now below is a mobile based approach which is more important*/
+
+
+.container{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    font-size:30px;
+}
+
+@media screen and (min-width:600px){
+    .container{
+        background-color: orange;
+        font-size:40px;
+    }
+    
+}
+
+@media screen and (min-width:900px){
+    
+    .container{
+        background-color: brown;
+        font-size:50px;
+    }
+    
+}
+
+/* this is how to make the site responsive either by desktop way or mobile way(more important) */
+
+
+
+
+
+
+

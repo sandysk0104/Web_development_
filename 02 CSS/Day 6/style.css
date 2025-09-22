@@ -1,0 +1,50 @@
+.container{
+    background-color: rgb(224, 224, 77);
+    height:600px;
+    display: flex;
+    /* flex-direction: column; */
+
+     /* wrt to main axis */
+    /* justify-content: center;
+    /* wrt to cross axis i.e. perpendicular to main axis */
+    /* align-items:center; */
+    /* flex-wrap: wrap; */
+
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+
+.box{
+    background-color: red;
+    width:100px;
+    height: 100px;
+    margin: 10px;
+    /* flex-grow: 1; */
+}
+.first{
+    background-color: aqua;
+}
+
+.second{
+    background-color: purple;
+    /* wrt to main axis */
+    /* flex-basis: 150px; */
+
+}
+
+.third{
+    background-color: pink;
+    /* also accronding to main axis  */
+    /* flex-grow: 1; */
+    
+    /* flex-shrink: 4;*/  /*first go 4 times less */
+    
+    /* wrt to cross axis */ 
+    /* align-self: flex-end;   */
+}
+
+.forth{
+    background-color:brown;
+    /* flex-grow: 2; */
+}
