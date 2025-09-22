@@ -1,0 +1,17 @@
+h1{
+    
+    background-color: aqua;
+}
+h1{
+    font-size: 30px;
+    background-color: rgb(236, 144, 144);
+}
+.first_class{
+    background-color: rgb(127, 176, 176);
+
+}
+
+#first_id{
+    background-color: rgb(157, 112, 199);
+}
+/* here id>class>normal h1(which ever getting last gets the highest priority) for cascading effect */

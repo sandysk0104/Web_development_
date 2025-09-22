@@ -1,0 +1,23 @@
+/* h1{
+    font-size: 10vh;
+} */
+/* 10vm means 10% of viewport width */
+/* 10vh means 10% of viewport height */
+
+/* h1{
+    font-weight: 900;
+} */
+/* values like from 100,200,300,....900 */
+
+/* h1{
+    font-style: italic;
+} */
+
+p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: l;
+}
+/* space between line */
+

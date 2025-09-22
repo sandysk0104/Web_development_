@@ -1,0 +1,51 @@
+/* color will change i.e. blue */
+/* div > p{
+    color: blue;
+
+} */
+
+/* this time color won't change */
+/* p>div{
+    color: blueviolet;
+} */
+
+/* by using rgb */
+/* red green blue */
+/* each value from 0 to 255 */
+/* alpha i.e. "a" is optional which has value from 0 to 1 */
+/* sans-serif is father of the fonts before i.e. Ariel ,Helvetica.... if nothing is available under sans-serif then browser use default font */
+/* like sans-serif there many father like this under which some childrens */
+/* font size:- */
+/* em means wrt relative to parent */
+/* rem means relative to root i.e. html font size */
+/* %ge wrt parent font size  */
+h1{
+    color: rgba(23,213, 67,0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* body{
+  background-image: url(./pexels-ferarcosn-190819.jpg);
+  background-size: cover;
+
+} */
+
+/* by using hexadecimal */
+/* starting with # like 0x then give total of 6 charracters */
+/* here apha is spported by addition of 2 charracter in the end i.e. now total charracters size become 8 instead of 6*/
+/* de is a alpha value */
+h2{
+    color: #b94a17de;
+
+}
+
+
+/*  by HSL */
+/* hue value from 0 to 360, and other two parameter in %ge */
+/* alpha here can also be used  */
+
+p{
+    color: hsla(188, 81%, 39%,0.5);
+}
+

@@ -1,0 +1,48 @@
+/* for accesing class element for you have to dot(.) first */
+/* .first{
+    color: blue;
+    background-color: blueviolet;
+} */
+
+/* for accesing id element for you have to hash(#) first */
+/* #second{
+    color: blueviolet;
+} */
+
+
+/* body tag directly can be used  */
+/* body{
+    color: blue;
+    background-color: brown;
+} */
+
+
+/*  "*" is for universal i.e. take all element  */
+/* *{
+    color: yellowgreen;
+    background-color: brown;
+} */
+
+/* for grouping
+p,h3,.first{
+    color: aqua;
+}  */
+
+/* draggle */
+/* h2[draggable="true"]{
+    color: aquamarine;
+}
+h2[contenteditable="true"]{
+    background-color: yellow;
+} */
+
+/* directly go for all desendent
+section p{
+    color: brown;
+} */
+
+/* directly go for only childs */
+section >p{
+    color: blueviolet;
+}
+
