@@ -1,0 +1,92 @@
+<!-- IIT JEE  Registration form -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    
+    <form >
+        <fieldset>
+            <legend>IIT JEE Registration Form</legend>
+        <label for="fname">Full Name:</label>
+        <input type="text" name="fname" id="fname">
+        <br>
+        <br>
+        <!-- email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <!-- contacts -->
+        <label for="contacts">Phone:</label>
+        <input type="tel" name="contacts" id="contacts">
+        <br>
+        <br>
+        <!-- passward -->
+        <label for="pwd">Passward:</label>
+        <input type="password" name="passward" id="pwd">
+        <br>
+        <br>
+            <!-- gender  -->
+        <label >Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">other</label>
+        <br>
+        <br>
+        <!-- DOB -->
+        <label for="data">Date of Birth:</label>
+        <input type="date" id="date" name="DOB" min="1996-01-01" max="2005-12-31" >
+        <br>
+        <br>
+        <!-- school name -->
+        <label for="sname">School Name:</label>
+        <input type="text" id="sname" name="school_name">
+        <br>
+        <br>
+        <!-- select your board -->
+        <label for="board">Board</label>
+        <select name="Board" id="board">
+            <option disabled selected>select your board:</option>
+            <option value="CBSE">CBSE</option>
+            <option value="UP">UP</option>
+            <option value="UK">UK</option>
+            <option value="ODISHA">ODISHA</option>
+
+
+        </select>
+        <br>
+        <br>
+        <!-- year of passing -->
+        <label for="year">Year of passing:</label>    
+        <input type="number" id="year" name="year_of_passing" min="2020" max="2025">
+        <br>
+        <br>
+        <!-- Exam- Center -->
+         <label for="center">Exam Center:</label>
+        <select name="Exam_Center" id="center">
+            <option disabled selected>select center city </option>
+            <option value="Rourkela">Rourkela </option>
+            <option value="Joshimath">Joshimath</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bulandshahr">Bulandshahr</option>
+
+        </select>
+        <br>
+        <br>
+        <!-- sublmit  -->
+        <button>submit</button>  
+    </fieldset>      
+        
+
+
+    </form>
+ </body>
+ </html>
+ <!-- fname=sandeep+kumar&email=sdfs%40gmail.com&contacts=85943443&passward=czxczc&gender=male&DOB=1998-04-01&school_name=kv+joshimath&Board=CBSE&year_of_passing=2021&Exam_Center=Rourkela -->
